@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2D2C2C;
+}
+
+.nav {
+	background-color: #262626;
+	height: 80px;
+}
+
+.logo {
+	color: #fff;
+	float: left;
+  font-family: arial;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 15px;
+	padding: 15px 15px 15px 35px;
+}
+
+.nav ul {
+	float: right;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 35px 15px 15px;
+	margin-top: 20px;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li span {
+	color: #F05C5C;
+}
+
+.nav a {
+	color: #d8d8d8;
+	margin-right: 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.intro {
+  text-align: center;
+  background-color: #2D2C2C;
+  font-family: arial;
+  color: #DFDDDD;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.intro h1 {
+  /*margin-top: 50px; */
+  font-size: 50px;
+  font-weight: 400;
+  padding: 80px 0 15px 0;
+}
+
+.intro span {
+  font-weight: bolder;
+}
+
+.intro h2 {
+  font-size: 35px;
+  font-weight: 100;
+  margin: 25px 0;
+  padding-bottom: 20px;
+}
+
+.intro h2 span {
+  color: #F05C5C;
+}
+
+.intro button {
+  background-color: #F05C5C;
+  border-radius: 10px;
+  color: #DFDDDD;
+  font-size: 15px;
+  padding: 15px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.intro button:hover {
+  cursor: pointer;
+}
+
+.capes {
+  background-color: #EFEBEB;
+  color: #454343;
+  height: 450px;
+  padding-top: 20px;
+}
+
+.feature {
+  float: left;
+  width: 30%;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  margin: 15px ;
+}
+
+.feature i {
+  font-size: 70px;
+  padding: 7px;
+}
+
+.feature h3 {
+  padding-bottom: 10px;
+  font-family: arial;
+  font-size: 23px;
+}
+
+.feature p {
+  font-family: arial;
+}
+
+.bottom-nav {
+  text-align: center;
+  height: 100px;
+}
+
+.bottom-nav h4 {
+  font-size: 20px;
+  color: #DFDDDD;
+  font-family: arial;
+  padding-top: 30px;
+}
+
+.bottom-nav p {
+  color: #DFDDDD;
+  font-family: arial;
+  padding: 15px 0 0 0;
+}
+
+.bottom-nav a {
+  color: #F05C5C;
+}
+
+.social {
+  text-align: center;
+  padding: 25px 0 50px 0;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background-color: #2A62DA;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 25px;
+  margin-right: 3px;
+}
+
+.fa-twitter {
+  background-color: #1BC1EA;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  margin-left: 3px;
+}
